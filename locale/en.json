@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Aliyun Toolkit",
+    "description": "Runs heavy jobs (video rendering, transcoding, inference) on Alibaba Cloud compute using your natural-language preferences, plus economy stop for pay-as-you-go ECS, OSS, CloudMonitor and billing. Write actions require approval."
+  }
+}

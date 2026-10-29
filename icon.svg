@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Aliyun toolkit">
+  <rect width="64" height="64" rx="14" fill="#FF6A00"/>
+  <path d="M22.5 45a9.5 9.5 0 0 1-.8-18.97A12 12 0 0 1 44 28.4 9 9 0 0 1 43 45H22.5Z" fill="#FFFFFF"/>
+  <path d="M27 30.5 32 36.5 37 30.5" fill="none" stroke="#FF6A00" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26.5 39.5H37.5M26.5 43H37.5M32 36.5V45.5" fill="none" stroke="#FF6A00" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

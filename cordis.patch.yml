@@ -1,0 +1,5 @@
+# Inserts the Aliyun toolkit row. Settings are persisted by the plugin itself
+# (see README), so this row intentionally carries no `config`.
+- insert:
+    - id: aliyun-toolkit
+      name: '@local/dsh-aliyun-toolkit'

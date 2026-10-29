@@ -1,0 +1,12 @@
+# Dependencies (the plugin itself is dependency-free)
+node_modules/
+# Local settings / credentials must never be committed
+settings.json
+.env
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+# Logs and temp files
+*.log
+*.tmp

@@ -1,0 +1,49 @@
+{
+  "name": "@local/dsh-aliyun-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 阿里云工具包：把视频渲染等重计算任务优先放到阿里云算力，按自然语言偏好选规格；同时提供按量付费省钱止损、OSS、云监控与账单。",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "aliyun",
+    "alibaba-cloud",
+    "ecs",
+    "oss",
+    "spot-instance",
+    "video-rendering",
+    "cost-control"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "src/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "scripts/selftest.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
