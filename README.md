@@ -6,10 +6,12 @@
 - 凭据只进 DSH 凭据库（回退 `ALIYUN_*` 环境变量），**不写入插件配置、不出现在工具结果里**。
 - 写操作默认经 DSH 审批；释放实例默认只预演，执行需要 `dry_run=false` + `confirm=true`。
 
+> GitHub: https://github.com/Flureax/dsh-aliyun-toolkit
+
 ## 安装
 
 ```powershell
-git clone https://github.com/<your-account>/dsh-aliyun-toolkit.git
+git clone https://github.com/Flureax/dsh-aliyun-toolkit.git
 # 在 DSH 会话里让 agent 执行，或通过插件管理器安装本地包
 plugin_manager action=install_bundle target=<仓库目录的绝对路径>
 ```

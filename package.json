@@ -5,6 +5,14 @@
   "type": "module",
   "description": "DSH 阿里云工具包：把视频渲染等重计算任务优先放到阿里云算力，按自然语言偏好选规格；同时提供按量付费省钱止损、OSS、云监控与账单。",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flureax/dsh-aliyun-toolkit.git"
+  },
+  "homepage": "https://github.com/Flureax/dsh-aliyun-toolkit#readme",
+  "bugs": {
+    "url": "https://github.com/Flureax/dsh-aliyun-toolkit/issues"
+  },
   "keywords": [
     "dsh",
     "deepseek-harness",
