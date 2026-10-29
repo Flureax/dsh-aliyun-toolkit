@@ -216,3 +216,7 @@ aliyun_ecs action=run_spot image_id=ubuntu_22_04_x64_20G_alibase_20240124.vhd \
 ```powershell
 plugin_manager action=remove_bundle target=@local/dsh-aliyun-toolkit
 ```
+
+---
+
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
