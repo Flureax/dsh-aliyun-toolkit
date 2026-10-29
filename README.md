@@ -1,5 +1,7 @@
 # 阿里云工具包（@local/dsh-aliyun-toolkit）
 
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
+
 让 DeepSeek Harness 的 agent **把视频渲染、转码、推理等重计算任务优先放到阿里云算力上跑**，同时处理按量计费算力的省钱与止损：一条命令扫描出正在计费但空闲的 ECS，用「节省停机模式」停止计费；新建算力用抢占式实例并自动设置释放时间。
 
 - 纯 Node 内置模块实现，**零 npm 依赖**，安装时不联网拉包。
@@ -216,7 +218,3 @@ aliyun_ecs action=run_spot image_id=ubuntu_22_04_x64_20G_alibase_20240124.vhd \
 ```powershell
 plugin_manager action=remove_bundle target=@local/dsh-aliyun-toolkit
 ```
-
----
-
-[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
